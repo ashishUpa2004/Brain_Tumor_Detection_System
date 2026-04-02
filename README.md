@@ -77,7 +77,7 @@ COGNITIVE is a full-stack web application that analyzes MRI scans and classifies
 ### Backend Setup
 
 ```bash
-cd backend_temp
+cd backend
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
@@ -102,7 +102,7 @@ Frontend runs on: http://localhost:5173
 CREATE DATABASE cognitive_django_db;
 ```
 
-Update credentials in `backend_temp/cognitive/settings.py`
+Update credentials in `backend/cognitive/settings.py`
 
 ---
 
@@ -115,33 +115,6 @@ Update credentials in `backend_temp/cognitive/settings.py`
 - **Glioma Detection**: 60-70% ⚠️
 
 **Confidence Threshold**: 70% minimum
-
----
-
-## 📁 Project Structure
-
-```
-Cognitive/
-├── backend_temp/          # Django + FastAPI backend
-│   ├── api/              # API endpoints
-│   ├── cognitive/        # Django settings
-│   └── uploads/          # Uploaded MRI scans
-├── frontend/             # React frontend
-│   └── src/
-│       ├── components/   # React components
-│       ├── pages/        # Page components
-│       └── services/     # API services
-├── best_vgg16.keras      # ML model file
-└── README.md
-```
-
----
-
-## 🎓 For College Presentation
-
-See detailed guides:
-- `PROJECT_FINAL_SUMMARY.md` - Complete project overview
-- `PRESENTATION_CHECKLIST.md` - Presentation preparation guide
 
 ---
 
