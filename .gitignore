@@ -28,11 +28,6 @@ backend/media/reports/*
 !backend/media/reports/.gitkeep
 backend/reports/*
 !backend/reports/.gitkeep
-backend/cognitive/
-backend/heatmaps/
-backend/run_admin.py
-backend/run_server.py
-Image/
 
 # Build
 frontend/dist/
