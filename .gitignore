@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+backend/venv/
+*.egg-info/
+
+# Environment
+.env
+backend/.env
+
+# ML Model files
+*.keras
+*.h5
+*.pkl
+
+# Generated files
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/heatmaps/*
+!backend/heatmaps/.gitkeep
+backend/media/reports/*
+!backend/media/reports/.gitkeep
+backend/reports/*
+!backend/reports/.gitkeep
+
+# Build
+frontend/dist/
+frontend/.env.local
+
+# IDE
+.vscode/
+.kiro/
+
+# DB
+*.sqlite3
+db.sqlite3
+
+# Readmes and docs
+PRESENTATION_GUIDE.md/
+VIVA_QUESTIONS.md/
+
+
+backend/
