@@ -28,3 +28,6 @@ dist-ssr
 venv/
 
 .vercel
+.env.example
+.prettierignore
+.prettierrc
