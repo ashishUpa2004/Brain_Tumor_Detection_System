@@ -13,6 +13,7 @@ backend/venv/
 # Environment
 .env
 backend/.env
+frontend/.env.example
 
 # ML Model files
 *.keras
@@ -44,3 +45,7 @@ db.sqlite3
 # Readmes and docs
 PRESENTATION_GUIDE.md
 VIVA_QUESTIONS.md
+frontend/README.md
+backend/README.md
+frontend/.prettierignore
+frontend/.prettierrc
