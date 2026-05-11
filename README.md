@@ -1,4 +1,4 @@
-# 🧠 COGNITIVE - Brain Tumor Detection System
+# COGNITIVE - Brain Tumor Detection System
 
 AI-powered web application for brain tumor detection using Deep Learning.
 
@@ -9,7 +9,7 @@ AI-powered web application for brain tumor detection using Deep Learning.
 
 ---
 
-## 🎯 Overview
+## Overview
 
 COGNITIVE is a full-stack web application that analyzes MRI scans and classifies brain tumors into 4 categories:
 - **Glioma**
@@ -31,7 +31,7 @@ COGNITIVE is a full-stack web application that analyzes MRI scans and classifies
 <img width="695" height="866" alt="Screenshot 2026-04-02 233830" src="https://github.com/user-attachments/assets/fb3056c9-7c28-4388-b361-4d59fbcd76d0" />
 
 
-## ✨ Features
+## Features
 
 - 🔐 Secure user authentication (JWT)
 - 📤 MRI scan upload and analysis
@@ -45,7 +45,7 @@ COGNITIVE is a full-stack web application that analyzes MRI scans and classifies
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - React 18 + TypeScript
@@ -67,7 +67,7 @@ COGNITIVE is a full-stack web application that analyzes MRI scans and classifies
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -108,23 +108,23 @@ Update credentials in `backend/cognitive/settings.py`
 
 ## 📊 Model Performance
 
-- **Overall Accuracy**: 70-75%
-- **Pituitary Detection**: 95-98% ✅
-- **Meningioma Detection**: 85-90% ✅
-- **No Tumor Detection**: 95-99% ✅
-- **Glioma Detection**: 60-70% ⚠️
+- **Overall Accuracy**: Training- 92%, validation- 88%
+- **Pituitary Detection**: 95-98% 
+- **Meningioma Detection**: 85-90% 
+- **No Tumor Detection**: 95-99% 
+- **Glioma Detection**: 60-70% 
 
 **Confidence Threshold**: 70% minimum
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This is an AI-assisted tool for preliminary analysis. **Always consult a qualified medical professional** for diagnosis and treatment.
 
 ---
 
-## 📝 License
+## License
 
 This project is for educational purposes (College Project).
 
